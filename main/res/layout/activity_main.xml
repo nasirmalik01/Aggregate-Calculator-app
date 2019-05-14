@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"></View>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="UET"
+            android:layout_weight="1.5"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textColor="#ffffff"
+            android:fontFamily="serif"
+            android:textSize="40dp"
+            android:id="@+id/edtuet"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0"></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="NUST"
+            android:layout_weight="1.5"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:fontFamily="serif"
+            android:id="@+id/edtnust"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0"></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="COMSATS"
+            android:layout_weight="1.5"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:fontFamily="serif"
+            android:id="@+id/edtcomsats"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0"></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="PIEAS"
+            android:layout_weight="1.5"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:fontFamily="serif"
+            android:id="@+id/edtpieas"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0"></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="GIKI"
+            android:layout_weight="1.5"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:fontFamily="serif"
+            android:id="@+id/edtgiki"/>
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
